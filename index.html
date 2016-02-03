@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<html>
+<head>
+    <title>PR280 Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <img id="player_image" src="img/Chameleon.png" hidden>
+    <audio id="clickSound" preload="auto">
+        <source src="button.mp3" type="audio/mp3">
+    </audio>
+    <audio id="background" preload="auto" loop>
+        <source src="background.mp3" type="audio/mp3">
+    </audio>
+</head>
+
+<body>
+    <h1>PR280 Portfolio</h1>
+    <h3>*The game will auto play music and sound. Could be loud, please watch out!* </h3>
+    <div id="pageContainer">
+        <div id="previousScores">
+            <p id="previousScores_note"></p>
+            
+        </div>
+        <div id="gameContainer">
+            <div id="gameMenu">
+                <p id="menuText">Player Name:</p><input id="Name" type="text" value="Chameleon" onBlur="validate(this)" required />
+                </br></br></br></br>
+                <select id = "mySelect">
+                    <option default selected>Select the stage </option>
+                    <option id="lv1">Level 1</option>
+                    <option id="lv2">Level 2</option>
+                    <option id="lv3">Level 3</option>
+                </select>
+                <button id="start_button" disabled>Start</button>
+            </div>
+            <canvas id="canvas" width="600" height="600"></canvas>
+        </div>
+        <div id="menuContainer">
+            
+            <p id ="playerName"></p>
+            <p id="NumOfCatch">Bug caught :  </p>
+            <p id="NumOfRemaining">Remaining bugs :  </p>
+            <p id="playTime"></p>
+        </div>
+        <div id="allUserScores">
+            <table id="scoreTable">
+                <tr>
+                    <th>Player Name</th>
+                    <th>Score</th>
+                </tr>
+                <button id="clearTable">Clear History</button>
+            </table>
+        </div>
+    </div>
+<script type="text/javascript" src="catchBug.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+#canvas {
+    display : none;
+    margin : auto;
+    border : 2px dashed #444;
+}
+
+#pageContainer {
+    display : block;
+    margin : auto;
+    width : 80%;
+}
+
+#gameContainer {
+    float : left;
+}
+
+#gameMenu {
+    background-image : url("img/title.jpg");
+    width : 600px;
+    height : 600px;
+    border : 2px dashed #444;
+}
+
+#menuText {
+    font-size: 30px;
+    margin-top : 0;
+    margin-bottom : 0;
+    padding : 30px;
+}
+
+#Name {
+    width : 200px;
+    height :50px;
+    font-size: 30px;
+    margin-top : 0;
+    margin-left : 30px;
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;    
+}
+
+#mySelect {
+    width : 300px;
+    height :50px;
+    font-size: 30px;
+    margin : 30px;
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;
+}
+
+#start_button {
+    width:200px;
+    height:80px;
+    font-weight: bold;
+    font-size: 30px; 
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;
+    background-color : #01DF3A;
+    color: #fffff;
+    margin : 30px;
+}
+
+#menuContainer {
+    display : none;
+    float : left;
+    width : 300px;
+    height : 600px;
+    border : 2px dashed #444;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+#allUserScores {
+    display : block;
+    float : left;
+    width : auto;
+    height : 600px;
+    border : 2px dashed #444;
+    font-size: 20px;
+}
+
+#scoreTable, th , td{
+	table-layout:auto;
+    padding: 0 1em;
+    width: auto;
+    border-collapse:collapse;
+	text-align: center;
+}

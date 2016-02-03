@@ -1,0 +1,5 @@
+Tested on FireFox and Chrome only.
+
+Debugged mainly on Chrome.
+
+This game is created in 2014 but tested again on Feb 2016, and seems all functions are still working.
